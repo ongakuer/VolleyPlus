@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/relex/Desktop/VolleyPlusDemo/velleylibrary/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <attr name="animate_changes" format="boolean" />
+    <attr name="default_image" format="reference" />
+    <attr name="error_image" format="reference" />
+    <attr name="in_animation" format="reference" />
+    <attr name="out_animation" format="reference" />
+    <!-- From: file:/Users/relex/Desktop/VolleyPlusDemo/velleylibrary/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="photo_crop_dim_color">#cc000000</color>
+    <color name="photo_crop_highlight_color">#fff</color>
+    <color name="solid_black">#ff000000</color>
+    <!-- From: file:/Users/relex/Desktop/VolleyPlusDemo/velleylibrary/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="AnimateImageView">
+        <attr name="animate_changes" />
+        <attr name="in_animation" />
+        <attr name="out_animation" />
+    </declare-styleable>
+    <declare-styleable name="NetworkImageView">
+        <attr name="default_image" />
+        <attr name="error_image" />
+    </declare-styleable>
+    <!-- From: file:/Users/relex/Desktop/VolleyPlusDemo/velleylibrary/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="photo_crop_stroke_width">1dip</dimen>
+    <dimen name="photo_crop_width">280dip</dimen>
+    <dimen name="photo_preview_size">200dip</dimen>
+    <!-- From: file:/Users/relex/Desktop/VolleyPlusDemo/velleylibrary/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="generic_error" translatable="false">No internet</string>
+    <string name="generic_server_down" translatable="false">Server down</string>
+    <string name="no_internet" translatable="false">No internet</string>
+    <string name="no_network_connection_toast" translatable="false">No network connection found</string>
+
+</resources>
